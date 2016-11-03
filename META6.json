@@ -1,0 +1,26 @@
+{
+    "perl"        : "6.c",
+    "name"        : "DateTime::Format::More",
+    "version"     : "0.1.0",
+    "description" : "Provides some additional DateTime formats",
+    "authors"     : [ "github:tbrowder" ],
+    "license"     : "Artistic 2.0",
+    "source-url"  : "https://github.com/tbrowder/DateTime-Format-More-Perl6",
+    "support"     : {
+        "bugtracker" : "https://github.com/tbrowder/DateTime-Format-More-Perl6/issues",
+        "source"     : "https://github.com/tbrowder/DateTime-Format-More-Perl6"
+    },
+    "provides"    : {
+        "DateTime::Format::More" : "lib/DateTime/Format/More.pm6"
+    },
+    "test-depends"     : [
+	"Test::META"
+    ],
+    "depends" : [
+    ],
+    "resources" : [
+    ],
+    "tags" : [
+	"date formats"
+    ]
+}
