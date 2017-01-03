@@ -14,7 +14,7 @@ BEGIN {
     }
 }
 
-sub time-stamp(:$set-time, :$code, :$utc, Int :$round = -1) returns Str is export(:time-stamp) {
+sub time-stamp(:$set-time, :$code, :$utc, Int :$round = -1 --> Str) is export(:time-stamp) {
     my $dt; # DateTime object
     if $set-time {
         $dt = DateTime.new($set-time);
