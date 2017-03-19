@@ -1,7 +1,6 @@
 # DateTime::Format::More
 
-[![Build Status](https://travis-ci.org/tbrowder/DateTime-Format-More-Perl6.svg?branch=master)]
-  (https://travis-ci.org/tbrowder/DateTime-Format-More-Perl6)
+[![Build Status](https://travis-ci.org/tbrowder/DateTime-Format-More-Perl6.svg?branch=master)](https://travis-ci.org/tbrowder/DateTime-Format-More-Perl6)
 
 This module assumes the user is on a system that has a local time zone defined (which of
 course may be UTC).
@@ -18,7 +17,7 @@ the author's Debian hosts that entry looks like:
     TZ=America/Chicago
 
 and that takes care of daylight savings time changes automatically, too.
- 
+
 On Windows systems...
 
 And on Mac systems...
