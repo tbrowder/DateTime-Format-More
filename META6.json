@@ -4,7 +4,7 @@
     "version"     : "0.1.0",
     "description" : "Provides some additional DateTime formats",
     "authors"     : [ "github:tbrowder" ],
-    "license"     : "Artistic 2.0",
+    "license"     : "Artistic-2.0",
     "source-url"  : "https://github.com/tbrowder/DateTime-Format-More-Perl6",
     "support"     : {
         "bugtracker" : "https://github.com/tbrowder/DateTime-Format-More-Perl6/issues",
